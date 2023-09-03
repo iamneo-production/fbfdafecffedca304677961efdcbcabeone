@@ -35,10 +35,14 @@ p {
 .cell:active {
 	outline: none;
 }
+.cell:hover {
+	background-color: rgba(255, 255, 255, 0.9);
+	cursor: pointer;
+  }
 /* 3*3 Grid */
 #b1{
-	border-bottom: 1px solid rgb(150, 137, 137);
-	border-right: 1px solid rgb(139, 131, 131);
+	border-bottom: 1px solid gray;
+	border-right: 1px solid gray;
 }
 
 #b2 {
