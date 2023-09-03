@@ -18,7 +18,8 @@ p {
     justify-content: center;
 }
 .cell {
-	border: none;
+	border: 2px solid #fff;
+	border-radius: 5px;
 	width: 80px;
 	height: 80px;
 	display: flex;
