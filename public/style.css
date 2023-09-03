@@ -96,7 +96,7 @@ p {
 }
 
 /* Player turn space */
-#print {
+#result {
 	font-family: Verdana,
 		Geneva, Tahoma, sans-serif;
 	color: dodgerblue;
