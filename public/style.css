@@ -19,9 +19,10 @@ p {
 }
 .cell {
 	border: 2px solid #fff;
+	background-color: rgba(255, 255, 255, 0.8);
 	border-radius: 5px;
-	width: 80px;
-	height: 80px;
+	width: 75px;
+	height: 75px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -103,6 +104,10 @@ p {
 	color: black;
 	font-size: 20px;
 	cursor: pointer;
+}
+#but:hover {
+	background-color: black;
+	color: #fff;
 }
 
 /* Player turn space */
