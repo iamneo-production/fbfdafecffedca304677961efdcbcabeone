@@ -102,6 +102,42 @@ p {
 	color: dodgerblue;
 	font-size: 20px;
 }
+/* Result Container Styling */
+.result-container {
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid #fff;
+	max-width: 200px;
+	margin: 0 auto;
+	text-align: center;
+  }
+  
+  /* Result Styling */
+  .result {
+	color: #fff;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	font-size: 25px;
+  }
+  
+  /* Reset Styling */
+  .reset {
+	text-align: center;
+  }
+  
+  /* Reset Button Styling */
+  .reset-button {
+	border: 2px solid #000;
+	color: #000;
+	cursor: pointer;
+	padding: 10px 20px;
+	background-color: #fff;
+	transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Reset Button Hover Styling */
+  .reset-button:hover {
+	background-color: #000;
+	color: #fff;
+  }
 
 /* Main Container */
 #main {
