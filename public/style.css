@@ -116,12 +116,12 @@ p {
 	border: 1px solid #fff;
 	max-width: 200px;
 	
-	height: 200px;
+	height: 50px;
 	margin : 0 auto;
 	text-align: center;
 }
 .centered-text {
-	line-height: 200px;
+	line-height: 50px;
 }
 
 /* Main Container */
