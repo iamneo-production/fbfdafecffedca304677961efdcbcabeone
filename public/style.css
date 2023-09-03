@@ -89,12 +89,12 @@ p {
 	border-left: 1px solid gray;
 }
 /* Reset Button */
-#but {
+#reset {
 	box-sizing: border-box;
 	width: 95px;
 	height: 40px;
 	text-align: center;
-	border: 5px black;
+	border: 2px solid black;
 	margin-left: auto;
 	border-radius: 8px;
 	font-family: Verdana,
@@ -105,13 +105,13 @@ p {
 	font-size: 20px;
 	cursor: pointer;
 }
-#but:hover {
+#reset:hover {
 	background-color: black;
 	color: #fff;
 }
 
 /* Player turn space */
-#print {
+#result {
 	font-family: Verdana,
 		Geneva, Tahoma, sans-serif;
 	color: rgb(2, 9, 17);
